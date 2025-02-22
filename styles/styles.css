@@ -1,1 +1,14 @@
+.logo-title {
+    display: flex;
+    align-items: center;
+}
 
+.logo {
+    height: 50px;
+    margin-right: 20px
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
