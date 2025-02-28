@@ -17,4 +17,5 @@ h1 {
     background: dimgrey;
     color: white;
     text-decoration: none;
+    user-select: none;
 }
