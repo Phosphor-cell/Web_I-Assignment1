@@ -62,3 +62,7 @@ footer {
 nav a:hover{
     color: black;
 }
+.img_title{
+    justify-content: center;
+    margin-left: 10rem;
+}
