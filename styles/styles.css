@@ -12,3 +12,9 @@ h1 {
     font-size: 40px;
     margin: 0;
 }
+*{
+    font-family: "Noto Sans Mono";
+    background: dimgrey;
+    color: white;
+    text-decoration: none;
+}

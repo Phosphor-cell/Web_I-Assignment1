@@ -1,0 +1,38 @@
+aside{
+    display: block;
+    float: right;
+    margin-right: 10rem;
+}
+.text-content{
+    display: flow;
+}
+.logo-title{
+    display: inline-block;
+    float: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+*{
+    margin: 1rem;
+}
+#omniman{
+    width: 17rem;
+    height: 25rem;
+}
+.seperate{
+    height: 10rem;
+}
+.icons{
+    background: linear-gradient(to bottom, whitesmoke, #e0e0e0);
+}
+td{
+    background: whitesmoke;
+    color: darkred;
+}
+tbody{
+    border-color: white;
+}
+table{
+    border-color: white;
+}

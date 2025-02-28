@@ -1,0 +1,9 @@
+*{
+    font-family: "Courier 10 Pitch";
+    background: white;
+    color: darkred;
+    text-decoration: none;
+}
+nav{
+    margin: 1rem;
+}
