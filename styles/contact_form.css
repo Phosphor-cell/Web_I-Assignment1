@@ -1,5 +1,5 @@
 body {
-    background-color: #f4f4f9;
+    background-color: #790e06;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,9 +11,11 @@ body {
     box-sizing: border-box;
 }
 
-
+nav a{
+    color: #790e06;
+}
 .contact-form {
-    background-color: #ffffff;
+    background-color: #790e06;
     width: 60%;
     max-width: 800px;
     margin-top: 40px;
@@ -26,16 +28,17 @@ body {
 fieldset {
     border: none;
     padding: 0;
+    color: white;
 }
 
 h1 {
-    color: #ffffff;
+    color: #790e06;
     text-align: center;
     font-size: 2rem;
 }
 
 .contact-form h1 {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-size: 2rem;
 }
@@ -64,14 +67,14 @@ input[type="submit"], input[type="reset"], textarea, select {
 }
 
 input[type="submit"], input[type="reset"] {
-    background-color: #790e06;
-    color: white;
+    background-color: white;
+    color: #790e06;
     cursor: pointer;
     border: none;
 }
 
 input[type="submit"]:hover, input[type="reset"]:hover {
-    background-color: #5a100b;
+    background-color: #f4f4f9;
 }
 
 textarea {
@@ -79,4 +82,7 @@ textarea {
     height: 150px;
 }
 
-
+header{
+    background: white;
+    color: #790e06;
+}
