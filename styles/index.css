@@ -19,7 +19,7 @@ ul, ol {
     margin-left: 20px;
 }
 
-a {
+#link {
     color: #790e06;
     font-weight: bold;
     text-decoration: underline;
