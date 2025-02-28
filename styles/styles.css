@@ -59,3 +59,12 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+tbody tr:nth-child(odd){
+    background: #790e06;
+    color: white;
+}
+tbody tr:nth-child(even){
+    background: white;
+    color: #790e06;
+}
