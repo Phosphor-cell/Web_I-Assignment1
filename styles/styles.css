@@ -24,7 +24,6 @@ header {
     align-items: center;
 }
 
-/* omniman page nav links not aligned with other pages due to no scroll bar on the right */
 div.headerDiv {
     width: 90%;
     display: flex;

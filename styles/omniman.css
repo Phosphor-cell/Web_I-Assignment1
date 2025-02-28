@@ -37,18 +37,10 @@ p, ul {
 td {
     padding: 5px;
 }
-
-/* footer is different than in styles.css*/
-footer {
-    background-color: #790e06;
-    color: white;
-    width: 100%;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
+img {
+    float: right;
 }
+
 .icons{
     column-span: 2;
 }

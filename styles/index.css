@@ -22,6 +22,7 @@ ul, ol {
 a {
     color: #790e06;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 
