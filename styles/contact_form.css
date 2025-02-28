@@ -1,9 +1,89 @@
-*{
-    font-family: "Courier 10 Pitch";
-    background: white;
-    color: darkred;
-    text-decoration: none;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-nav{
-    margin: 1rem;
+
+.contact-form {
+    background-color: #ffffff;
+    width: 60%;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 40px;
+    border-radius: 8px;
+
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact-form h1 {
+    color: #5a5959;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1rem;
+    display: inline;
+
+}
+
+input[type="text"], input[type="tel"], input[type="email"],
+input[type="submit"], input[type="reset"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #790e06;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #5a100b;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+footer {
+    background-color: #790e06;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

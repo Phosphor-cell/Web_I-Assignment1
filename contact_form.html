@@ -7,14 +7,19 @@
     <meta name="keywords" content="Invincible, Omniman, TV Show, Comic Series, Superhero">
     <meta name="author" content="Jarod Dacocos, Dev Bhatt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="0styles/styles.css">
-    <link rel="stylesheet" href="styles/contact_form.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/contact_form.css">
     <title>Invincible | Contact Form</title>
 </head>
 
 <body>
-    <!-- Navigation -->
     <header>
+        <div class="headerDiv">
+        <div class="logo-title">
+            <img src="images/omniman_logo.png" alt="Omni-man Logo" title="Omni-man Logo" class="logo">
+            <!-- (temporary comment) Source: https://commons.wikimedia.org/wiki/File:Omniman_logo.png -->
+            <h1>Invincible</h1>
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="omniman.html">Omniman</a>
@@ -27,9 +32,16 @@
         <fieldset>
             <h1>Contact Us</h1>
             <p>Questions, thoughts, or feedback? Send them here!</p>
-            <form method="post">
-                <label> Salutation: <!-- Not sure if this should be a text field or a drop-down list-->
-                    <input type="text" name="salutation" required>
+            <form method="post" action='#'>
+                <label> Salutation: <br>
+                    <select name="salutation" required>
+                        <option value="none">Select One</option>
+                        <option value="mr">Mr.</option>
+                        <option value="mrs">Mrs.</option>
+                        <option value="ms">Ms.</option>
+                        <option value="dr">Dr.</option>
+                        <option value="other">Other</option>
+                    </select>
                 </label> <br><br>
 
                 <label> First Name:
@@ -60,7 +72,7 @@
                 </label> <br><br>
 
                 <p>
-                    Which seasons have you watched for Invincible? <br>
+                    Which seasons have you watched for Invincible? <br><br>
                     <label>
                         <input type="checkbox" name="how" value="none" required> None
                     </label>
@@ -76,7 +88,7 @@
                 </p>
 
                 <p>
-                    How did you hear about us?
+                    How did you hear about us? <br><br>
                     <label>
                         <input type="radio" name="how" value="search" required> Search Engine
                     </label>
@@ -90,12 +102,15 @@
                         <input type="radio" name="how" value="other"> Other
                     </label>
                 </p>
-
+                <br>
                 <input type="submit" value="Submit">
                 <input type="reset" value="Clear">
             </form>
         </fieldset>
     </div>
+
+
+    <footer>&copy; 2025 Invincible Fan Page. All rights reserved.</footer>
 
 </body>
 
