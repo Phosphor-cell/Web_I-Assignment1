@@ -59,10 +59,14 @@ footer {
 .icons{
     column-span: 2;
 }
-nav a:hover{
-    color: black;
-}
+
 .img_title{
     justify-content: center;
     margin-left: 10rem;
+}
+p::first-letter{
+    font-weight: bolder;
+}
+.table-Info{
+    margin-left: 5rem;
 }

@@ -68,3 +68,6 @@ tbody tr:nth-child(even){
     background: white;
     color: #790e06;
 }
+nav a:hover{
+    color: black;
+}
