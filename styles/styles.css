@@ -11,6 +11,7 @@ body {
     align-items: center;
     background-color: #f4f4f9;
 }
+
 header {
     background-color: #790e06;
     color: white;
@@ -21,12 +22,12 @@ header {
     align-items: center;
 }
 
+/* omniman page nav links not aligned with other pages due to no scroll bar on the right */
 div.headerDiv {
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
-
 }
 
 header .logo-title {
