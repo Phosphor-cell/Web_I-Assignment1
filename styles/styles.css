@@ -71,3 +71,6 @@ tbody tr:nth-child(even){
 nav a:hover{
     color: black;
 }
+nav a.active{
+    color: dimgrey;
+}
