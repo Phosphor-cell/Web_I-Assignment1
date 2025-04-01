@@ -80,3 +80,9 @@ section:focus{
     font-family: Arial;
     font-weight: bold;
 }
+
+:focus {
+    outline: 3px solid #005fcc; 
+    outline-offset: 2px;
+}
+
