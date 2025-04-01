@@ -55,3 +55,9 @@ p::first-letter{
 .table-Info{
     margin-left: 5rem;
 }
+section:focus{
+    font-weight: bold;
+}
+.table-Info:focus{
+    font-weight: initial;
+}
