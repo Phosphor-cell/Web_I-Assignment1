@@ -70,8 +70,13 @@ tbody tr:nth-child(even){
     color: #790e06;
 }
 nav a:hover{
-    color: black;
+    color: Yellow;
 }
 nav a.active{
-    color: #000000;
+    color: Yellowg;
+}
+
+section:focus{
+    font-family: Arial;
+    font-weight: bold;
 }
