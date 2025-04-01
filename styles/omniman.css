@@ -55,3 +55,13 @@ p::first-letter{
 .table-Info{
     margin-left: 5rem;
 }
+
+.table-Info:focus{
+    font-family: initial;
+    font-weight: initial;
+}
+
+section:focus{
+    font-family: Arial;
+    font-weight: bold;
+}
