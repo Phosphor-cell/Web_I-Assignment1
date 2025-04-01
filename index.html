@@ -103,7 +103,7 @@
             <fieldset>
                 <h2>Are You Viltrumite Material?</h2>
                 <form method="post" action='#'>
-                    <label> How strong are you? (1-10)
+                    <label>* How strong are you? (1-10)
                         <select name="strength" id="strength" required>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -119,7 +119,7 @@
                     </select>
                     <br><br>
 
-                    <label>Would you stay loyal to the Viltrum Empire?
+                    <label>* Would you stay loyal to the Viltrum Empire?
                         <select name="salutation" required>
                             <option value="">Yes, I will serve Omni-Man!</option>
                             <option value="mr">Maybe, depends on the benefits.</option>
@@ -128,11 +128,11 @@
                     </label> <br>
 
                     <br>
-                    <label for="flight">Can you fly?</label>
-                    <input type="radio" id="yes" name="flight" value="yes" required>
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="no" name="flight" value="no" required>
-                    <label for="no">No</label>
+                    <label>* Can you fly?</label>
+                    <input type="radio" value="yes" required>
+                    <label>Yes</label>
+                    <input type="radio" value="no" required>
+                    <label>No</label>
                     <br><br>
                     <label>Why should Omni-Man recruit you?<br>
                         <textarea name="message"></textarea>
