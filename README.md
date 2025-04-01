@@ -1,11 +1,23 @@
 # Planning Document (Tentative)
 
 **Jarod**:  
-- Create and style show synposis page 
-- HTML for form
+- Update the HTML required for the given layout
+- Create and work on normalize.css
+- Analyze the website for accessibility issues
   
 
 **Dev**:
-- Create and style character biography page
-- CSS for form
+- Update the CSS to match the given layout
+- Fix any accessibility issues that we come across
+
+---
+
+**Issues identified through manual and automated analysis:**
+
+Perceivability:  
+Operability:  
+Understandability:  
+Robustness:  
+
+**Changes we made:**
 
