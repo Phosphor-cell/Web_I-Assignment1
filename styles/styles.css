@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #f4f4f9;
+    font-size: 17px;
 }
 
 header {
@@ -86,3 +87,40 @@ section:focus{
     outline-offset: 2px;
 }
 
+/* medium devices (max width: 790px) */
+@media (max-width: 790px) {
+    body {
+        font-size: 15px; 
+    }
+
+    h1 {
+        font-size: 1.6rem; 
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p, label, textarea, select {
+        font-size: 0.9rem; 
+    }
+}
+
+/* small devices (max width: 590px) */
+@media (max-width: 590px) {
+    body {
+        font-size: 13px; 
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p, label, textarea, select {
+        font-size: 0.8rem;
+    }
+}
