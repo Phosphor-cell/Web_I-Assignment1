@@ -23,7 +23,13 @@ ul, ol {
     margin-top: 20px; 
 }
 
-#link {
+#link1 {
+    color: #790e06;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#link2 {
     color: #790e06;
     font-weight: bold;
     text-decoration: underline;
