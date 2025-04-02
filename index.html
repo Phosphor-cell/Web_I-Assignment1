@@ -132,8 +132,8 @@
                                 <option value="8">8</option>
                                 <option value="9">9</option>
                                 <option value="10">10</option>
-                        </label>
                         </select>
+                    </label>
                         <br><br>
 
                         <label for="loyalty">Would you stay loyal to the Viltrum Empire? <i>(required)</i>
@@ -145,18 +145,18 @@
                         </label> 
 
                         <br>
-                        <label for="fly">Can you fly? <i>(required)</i></label>
+                        <legend>Can you fly? <i>(required)</i></legend>
                         <div class="radio-group">
-                            <label>
-                                <input type="radio" value="yes" required> Yes
+                            <label for="fly-yes">
+                                <input type="radio" id="fly-yes" name="fly" value="yes" required> Yes
                             </label>
-                            <label>
-                                <input type="radio" value="no" required> No
+                            <label for="fly-no">
+                                <input type="radio" id="fly-no" name="fly" value="no" required> No
                             </label>
                         </div>
                         <br>
                         <label for="recruitment">Why should Omni-Man recruit you?<br>
-                            <textarea name="message"></textarea>
+                            <textarea name="message" id="recruitment"></textarea>
                         </label><br>
                         <button type="submit">Submit</button>
                 </form>
