@@ -119,8 +119,9 @@
 
                     <h2>Are You Viltrumite Material?</h2>
                     <form method="post" action='#'>
-                        <label>How strong are you? (1-10) <i>(required)</i>
+                        <label for="strength">How strong are you? (1-10) <i>(required)</i>
                             <select name="strength" id="strength" required>
+                                <option value="" selected disabled>Select your strength</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -135,8 +136,8 @@
                         </select>
                         <br><br>
 
-                        <label>Would you stay loyal to the Viltrum Empire? <i>(required)</i>
-                            <select name="salutation" required>
+                        <label for="loyalty">Would you stay loyal to the Viltrum Empire? <i>(required)</i>
+                            <select name="loyalty" required>
                                 <option value="">Yes, I will serve Omni-Man!</option>
                                 <option value="mr">Maybe, depends on the benefits.</option>
                                 <option value="mrs">No, I will join Mark Grayson!</option>
@@ -144,7 +145,7 @@
                         </label> 
 
                         <br>
-                        <label>Can you fly? <i>(required)</i></label>
+                        <label for="fly">Can you fly? <i>(required)</i></label>
                         <div class="radio-group">
                             <label>
                                 <input type="radio" value="yes" required> Yes
@@ -154,7 +155,7 @@
                             </label>
                         </div>
                         <br>
-                        <label>Why should Omni-Man recruit you?<br>
+                        <label for="recruitment">Why should Omni-Man recruit you?<br>
                             <textarea name="message"></textarea>
                         </label><br>
                         <button type="submit">Submit</button>
