@@ -14,7 +14,7 @@
 
 # Issues identified through manual and automated analysis:
 
-**Perceivability**:  
+**Perceivability**: An accessibility issue that we discovered was that when adding figure caption for accessibility, the text-colour was black which had a low contrast with the header colour (red), we fixed this by changing the text to white. The webpage is already organized, links are underlined, and all images have titles, alt text and captions with the exception of the logo which does not have a caption.
 
 **Operability**: An accessibility issue that we identified was that there was no keyboard navigation. We fixed this by allowing the user to navigate our website using the 'Tab' key as well as styled our 'focus ring' to make it colour-blind friendly. We did not implement a 'Skip to Main Content' solution as our navigation bar only has three items, however as we continue to add more webpages and our navigation bar increases in size, it would be something we would implement for accessibility users to improve keyboard navigation and bypass repetitive content.
   
