@@ -9,9 +9,25 @@ h2 {
     margin-bottom: 10px;
 }
 
+#motto {
+    color: #ffffff;
+}
+
 p, ul, ol {
     line-height: 1.6;
 
+}
+
+.hero-image {
+    background: #790e06e0;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #ffffff;
 }
 
 ul, ol {
