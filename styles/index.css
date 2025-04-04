@@ -43,15 +43,24 @@ ul, ol {
 }
 
 .grid-item {
-    background-color: #ffffff; 
-    padding: 20px; 
-    border-radius: 8px; 
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 @media (max-width: 590px) {
     .grid-container {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
+}
+
+
+@media (max-width: 790px){
+
+    .grid-container{
+        grid-template-columns: 2fr;
+    }
+
 }
 
 .quiz-form {
